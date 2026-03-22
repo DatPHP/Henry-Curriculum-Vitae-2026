@@ -44,13 +44,35 @@ const PROJECTS = [
     }
   },
   {
-    title: "Fintech Trading Portal",
-    role: "Full Stack Developer @ SFV Technology",
-    tech: ["Next.js 14", "Laravel 10", "MT5 Integration", "TanStack Query"],
-    description: "Built a complex trading ecosystem including withdrawal/deposit features synchronized with MT5. Focused on secure registration and user-friendly UI.",
-    impact: "Used by real production clients for daily trading operations.",
+    title: "Gold View Henry App",
+    role: "Frontend Developer @ TDCX",
+    tech: ["Next.js", "React", "TailwindCSS", "Framer Motion"],
+    description: "A modern real estate or property showcase application with smooth transitions and interactive UI elements.",
+    impact: "Showcased high-end property listings with an immersive user experience.",
     links: {
-      demo: "https://portal.sfvn-invest.com.vn/home"
+      github: "https://github.com/DatPHP/gold-view-henry-app",
+      demo: "https://gold-view-henry-app.vercel.app/"
+    }
+  },
+  {
+    title: "Henry Todo List App",
+    role: "Frontend Developer @ TDCX",
+    tech: ["Next.js", "TypeScript", "TailwindCSS"],
+    description: "A sophisticated task management application focusing on productivity and clean user interface.",
+    impact: "Demonstrated efficient state management and modern frontend architecture.",
+    links: {
+      github: "https://github.com/DatPHP/Henry-todolist-app",
+      demo: "https://henry-todolist-app.vercel.app/"
+    }
+  },
+  {
+    title: "Shop 2024",
+    role: "Frontend Developer @ TDCX",
+    tech: ["React", "E-commerce", "TailwindCSS"],
+    description: "A modern e-commerce storefront built with a focus on performance and conversion-oriented design.",
+    impact: "Implemented a seamless shopping experience with optimized product discovery.",
+    links: {
+      github: "https://github.com/DatPHP/shop2024"
     }
   },
   {
@@ -86,9 +108,9 @@ const SKILLS = [
 const EXPERIENCE = [
   {
     period: "2024 – Present",
-    company: "TDCX (MY) & SFV Technology",
-    role: "Frontend / Full Stack Developer",
-    desc: "Simultaneously leading frontend development for shipping CRM and full-stack development for fintech trading systems."
+    company: "TDCX (MY) SDN. BHD COMPANY",
+    role: "Frontend Developer",
+    desc: "Leading frontend development for high-scale CRM systems, focusing on invoice management, shipping workflows, and marketing integration."
   },
   {
     period: "2023 – 2024",
