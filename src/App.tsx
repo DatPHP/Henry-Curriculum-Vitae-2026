@@ -33,6 +33,46 @@ function cn(...inputs: ClassValue[]) {
 
 const PROJECTS = [
   {
+    title: "AI With English Learning",
+    role: "Full Stack Developer",
+    tech: ["Next.js", "Gemini API", "AI Integration", "TailwindCSS"],
+    description: "An intelligent English learning assistant powered by AI to provide personalized feedback and conversation practice.",
+    impact: "Enhanced language acquisition through interactive AI-driven tutoring sessions.",
+    links: {
+      demo: "https://ai-with-english-learning.vercel.app/"
+    }
+  },
+  {
+    title: "Honeymoon Wedding Invitation SaaS",
+    role: "Full Stack Developer",
+    tech: ["Next.js", "TypeScript", "TailwindCSS", "SaaS"],
+    description: "A scalable SaaS platform for creating and managing elegant wedding invitations with personalized features.",
+    impact: "Enabled couples to digitize their invitations with real-time updates and guest management.",
+    links: {
+      demo: "https://honeymoon-wedding-invitation-saa-s.vercel.app/"
+    }
+  },
+  {
+    title: "Caphe Co Que Day",
+    role: "Frontend Developer",
+    tech: ["Next.js", "React", "Branding", "TailwindCSS"],
+    description: "A high-conversion landing page and storefront for a traditional coffee brand, focusing on brand storytelling.",
+    impact: "Increased online brand presence and customer engagement for a local coffee business.",
+    links: {
+      demo: "https://caphecoqueday.vercel.app/"
+    }
+  },
+  {
+    title: "Wedding Janes Henry 2026",
+    role: "Frontend Developer",
+    tech: ["Next.js", "Framer Motion", "Personalization"],
+    description: "A custom-designed wedding commemorative site with interactive galleries and event details.",
+    impact: "Created a lasting digital memory and guest portal for a special event.",
+    links: {
+      demo: "https://wedding-janes-henry-2026.vercel.app/"
+    }
+  },
+  {
     title: "CRM Dashboard System",
     role: "Frontend Developer @ TDCX",
     tech: ["Next.js 14", "Laravel 11", "Vue 3", "TailwindCSS"],
