@@ -6,7 +6,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
-  Github, 
   Linkedin, 
   Mail, 
   ExternalLink, 
@@ -79,7 +78,6 @@ const PROJECTS = [
     description: "Developed a high-performance CRM system for Invoice and Shipping management. Integrated Google Analytics 4 and Ads for business tracking.",
     impact: "Streamlined shipping workflows and improved invoice tracking accuracy.",
     links: {
-      github: "https://github.com/DatPHP/invoice-crm-frontend",
       demo: "https://acme-dashboard-crm.vercel.app/dashboard"
     }
   },
@@ -90,7 +88,6 @@ const PROJECTS = [
     description: "A modern real estate or property showcase application with smooth transitions and interactive UI elements.",
     impact: "Showcased high-end property listings with an immersive user experience.",
     links: {
-      github: "https://github.com/DatPHP/gold-view-henry-app",
       demo: "https://gold-view-henry-app.vercel.app/"
     }
   },
@@ -101,7 +98,6 @@ const PROJECTS = [
     description: "A sophisticated task management application focusing on productivity and clean user interface.",
     impact: "Demonstrated efficient state management and modern frontend architecture.",
     links: {
-      github: "https://github.com/DatPHP/Henry-todolist-app",
       demo: "https://henry-todolist-app.vercel.app/"
     }
   },
@@ -112,17 +108,17 @@ const PROJECTS = [
     description: "A modern e-commerce storefront built with a focus on performance and conversion-oriented design.",
     impact: "Implemented a seamless shopping experience with optimized product discovery.",
     links: {
-      github: "https://github.com/DatPHP/shop2024"
+      demo: "https://nextjs-my-to-do-app.vercel.app/"
     }
   },
   {
     title: "Intranet Project",
     role: "Full Stack PHP Developer @ Archetype Group",
     tech: ["Next.js 14", "MUI", "Laravel 8", "NestJS"],
-    description: "Architected a custom intranet with asynchronous data processing and large file handling. Designed a logging system using NestJS and MongoDB.",
+    description: "Architected a custom intranet with asynchronous data processing and large file handling. Designed a logging system using NextJS and MongoDB.",
     impact: "Improved internal project management efficiency by 30%.",
     links: {
-      github: "https://github.com/DatPHP/CRMNew2025"
+      demo: "https://www.archetype-group.com/"
     }
   }
 ];
@@ -418,9 +414,6 @@ const Projects = () => (
         <h2 className="text-3xl md:text-4xl font-bold mb-4">Featured Work</h2>
         <p className="text-zinc-400">A selection of systems built for real production impact.</p>
       </div>
-      <a href="https://github.com/DatPHP" className="text-emerald-500 font-bold flex items-center gap-2 hover:underline">
-        View all on GitHub <ExternalLink size={16} />
-      </a>
     </div>
 
     <div className="grid gap-12">
@@ -462,14 +455,6 @@ const Projects = () => (
                   className="px-6 py-3 bg-white text-black rounded-xl font-bold flex items-center gap-2 hover:bg-emerald-400 transition-all"
                 >
                   Live Demo <ExternalLink size={16} />
-                </a>
-              )}
-              {project.links.github && (
-                <a 
-                  href={project.links.github} 
-                  className="px-6 py-3 bg-zinc-800 text-white rounded-xl font-bold flex items-center gap-2 hover:bg-zinc-700 transition-all"
-                >
-                  Source <Github size={16} />
                 </a>
               )}
             </div>
@@ -569,7 +554,6 @@ const Footer = () => (
         © {new Date().getFullYear()} Henry Nguyen. Built with Next.js & Tailwind.
       </div>
       <div className="flex gap-6">
-        <a href="https://github.com/DatPHP" className="text-zinc-500 hover:text-white transition-colors"><Github size={20} /></a>
         <a href="https://www.linkedin.com/in/van-dat-nguyen-b678a2176/" className="text-zinc-500 hover:text-white transition-colors"><Linkedin size={20} /></a>
         <a href="mailto:nguyenvandat170296@gmail.com" className="text-zinc-500 hover:text-white transition-colors"><Mail size={20} /></a>
       </div>
