@@ -32,6 +32,26 @@ function cn(...inputs: ClassValue[]) {
 
 const PROJECTS = [
   {
+    title: "CRM System 2026",
+    role: "Full Stack Developer (The Best)",
+    tech: ["Next.js", "TypeScript", "TailwindCSS", "Recharts", "Enterprise Architecture"],
+    description: "An advanced, enterprise-grade next-generation CRM platform designed with highly interactive management boards, real-time analytics dashboards, complex financial metrics, and high-performance workflow automation pipelines.",
+    impact: "Boosted executive analytical decision speeds by 45% and established a state-of-the-art secure platform structure.",
+    links: {
+      demo: "https://crm-system-2026.vercel.app/dashboard"
+    }
+  },
+  {
+    title: "Ok Let's Go VN",
+    role: "Full Stack Developer",
+    tech: ["Next.js", "React", "Framer Motion", "TailwindCSS", "Travel API"],
+    description: "A highly dynamic and interactive travel-guide booking and regional discovery application highlighting curated tourist tracks, hotel booking shortcuts, and cultural experiences in Vietnam.",
+    impact: "Delivered a fluid, mobile-first responsive design, substantially reducing customer bounce-rate during booking workflows.",
+    links: {
+      demo: "https://ok-let-go-vn.vercel.app/"
+    }
+  },
+  {
     title: "AI With English Learning",
     role: "Full Stack Developer",
     tech: ["Next.js", "Gemini API", "AI Integration", "TailwindCSS"],
@@ -196,7 +216,7 @@ const Navbar = () => {
           <div className="w-8 h-8 bg-emerald-500 rounded-lg flex items-center justify-center text-black">
             <Terminal size={18} />
           </div>
-          <span>Henry Nguyen</span>
+          <span>Dat Nguyen Van</span>
         </motion.div>
 
         {/* Desktop Nav */}
@@ -357,13 +377,13 @@ const About = () => (
       >
         <img 
           src="https://picsum.photos/seed/developer/800/800" 
-          alt="Henry Nguyen" 
+          alt="Dat Nguyen Van" 
           className="object-cover w-full h-full opacity-60 group-hover:scale-105 transition-transform duration-700"
           referrerPolicy="no-referrer"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent" />
         <div className="absolute bottom-8 left-8">
-          <div className="text-2xl font-bold">Henry Nguyen</div>
+          <div className="text-2xl font-bold">Dat Nguyen Van</div>
           <div className="text-emerald-500 font-medium">Full Stack Developer</div>
         </div>
       </motion.div>
@@ -551,7 +571,7 @@ const Footer = () => (
   <footer className="py-12 px-6 border-t border-zinc-900">
     <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
       <div className="text-zinc-500 text-sm">
-        © {new Date().getFullYear()} Henry Nguyen. Built with Next.js & Tailwind.
+        © {new Date().getFullYear()} Dat Nguyen Van. Built with Next.js & Tailwind.
       </div>
       <div className="flex gap-6">
         <a href="https://www.linkedin.com/in/van-dat-nguyen-b678a2176/" className="text-zinc-500 hover:text-white transition-colors"><Linkedin size={20} /></a>
